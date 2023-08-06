@@ -1,0 +1,29 @@
+<section id="experience">
+  <div class="container">
+    <div class="row">
+      <h1 class="h1-heading">Experience</h1>
+      <div class="card">
+        <p-timeline
+          [value]="events"
+          align="alternate"
+          styleClass="customized-timeline"
+        >
+          <ng-template pTemplate="marker" let-event>
+            <span
+              class="custom-marker shadow-2 image"
+              [style.backgroundColor]="event.color"
+            >
+            </span>
+          </ng-template>
+          <ng-template pTemplate="content" let-event>
+            <p-card [header]="event.job" [subheader]="event.date">
+              <ul>
+                <li *ngFor="let element of event.description">{{ element }}</li>
+              </ul>
+            </p-card>
+          </ng-template>
+        </p-timeline>
+      </div>
+    </div>
+  </div>
+</section>

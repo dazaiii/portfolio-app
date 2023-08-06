@@ -1,0 +1,35 @@
+section {
+  background: url(https://img.freepik.com/premium-vector/white-background-with-white-background-white-background_594699-110.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+  padding: 64px 0 64px 0;
+}
+
+img {
+  height: 400px;
+  -webkit-box-shadow: -10px -10px 0 2px #a855f7;
+  -moz-box-shadow: -10px -10px 0 2px #a855f7;
+  box-shadow: -10px -10px 0 2px #a855f7;
+
+  @media only screen and (max-width: 992px) {
+    width: 80%;
+    height: auto;
+  }
+}
+
+.quiz-img {
+  margin-top: 60px;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+  margin: 32px 0 0;
+  padding: 0 10vh;
+}
+
+a {
+  font-size: 20px;
+  margin: 16px 0 16px 0;
+  text-decoration: none;
+}

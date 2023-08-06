@@ -1,0 +1,36 @@
+section {
+  background: url(https://img.freepik.com/premium-vector/white-background-with-white-background-white-background_594699-110.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+  height: 95vh;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-family: "HeaderFont";
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 64px;
+  font-size: 64px;
+
+  @media only screen and (max-width: 781px) {
+    font-size: 46px;
+  }
+}
+
+h4 {
+  text-align: center;
+  margin-bottom: 50px;
+}

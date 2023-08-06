@@ -1,0 +1,53 @@
+section {
+  padding: 64px 0 64px 0;
+}
+
+img {
+  height: 400px;
+  -webkit-box-shadow: -10px -10px 0 2px #a855f7;
+  -moz-box-shadow: -10px -10px 0 2px #a855f7;
+  box-shadow: -10px -10px 0 2px #a855f7;
+
+  @media only screen and (max-width: 992px) {
+    width: 80%;
+    height: auto;
+  }
+}
+
+.skill {
+  padding: 8px 16px;
+  margin-bottom: 16px;
+  margin-right: 16px;
+  font-size: 20px;
+  background: rgba(153, 153, 153, 0.2);
+  border-radius: 5px;
+  font-weight: 600;
+  color: #666;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+  margin: 20px 0 32px 0;
+  padding: 0 10vh;
+}
+
+.skill-header {
+  margin-bottom: 50px;
+}
+
+.skills-container {
+  padding: 0 10vh;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+
+  @media only screen and (max-width: 992px) {
+    flex-direction: column;
+  }
+}
