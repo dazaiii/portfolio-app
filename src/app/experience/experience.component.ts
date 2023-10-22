@@ -28,7 +28,7 @@ export class ExperienceComponent {
         ],
       },
       {
-        job: 'Junior Frontend Developer - DahliaMatic',
+        job: 'Angular Frontend Developer - DahliaMatic',
         date: '2022.06 - present',
         description: [
           'Developing Angular applications in micro-frontend architecture;',
@@ -38,6 +38,7 @@ export class ExperienceComponent {
           'Cooperation with backend, QA and design teams;',
           'Creating automated tests in Cypress;',
           'Deploying microfrontends using OpenShift;',
+          'Care about software quality, performance and security;',
         ],
       },
     ];
