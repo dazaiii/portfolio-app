@@ -3,32 +3,103 @@
     <div class="row">
       <div class="d-flex flex-column justify-content-center align-items-center">
         <h1 class="h1-heading">Projects</h1>
-        <img src="../../assets/spacex.png" alt="spacex" />
-        <a
-          pButton
-          styleClass="p-button-raised p-button-help p-button-lg"
-          label="Go to project"
-          href="https://github.com/dazaiii/spacex-web"
-          target="_blank"
-        ></a>
-        <p>Tech stack: Angular, Angular Material, TypeScript, SCSS, HTML</p>
-        <p class="mb-4">
+        <div class="project-description">
+          <div class="d-flex project-details align-items-center">
+            <div class="col-md-12 col-lg-8 d-flex image-container">
+              <img src="../../assets/moviesapp3.png" alt="movie app" />
+            </div>
+            <div
+              class="d-flex flex-column align-items-center col-md-12 col-lg-4"
+            >
+              <a
+                class="mb-4"
+                pButton
+                styleClass="p-button-raised p-button-help p-button-lg"
+                label="Go to project (GitHub)"
+                href="https://github.com/dazaiii/movies-app"
+                target="_blank"
+              ></a>
+              <a
+                class="mb-4"
+                pButton
+                styleClass="p-button-raised p-button-help p-button-lg"
+                label="Hosted project"
+                href="https://magical-sunburst-005073.netlify.app/"
+                target="_blank"
+              ></a>
+              <div class="d-flex justify-content-center flex-wrap">
+                <p-chip label="Angular"></p-chip>
+                <p-chip label="PrimeNG"></p-chip>
+                <p-chip label="Bootstrap 5"></p-chip>
+                <p-chip label="ngx-translate"></p-chip>
+                <p-chip label="TypeScript, SCSS, HTML"></p-chip>
+              </div>
+            </div>
+          </div>
+          <p>
+            Application consists of header & footer, home, movie and actor
+            pages. Movie database which consists of detailed info about movies
+            and actors. Page allows to translate its content to polish or
+            english. Using public API for backend named TMDB
+          </p>
+        </div>
+
+        <div class="d-flex project-details align-items-center">
+          <div class="col-md-12 col-lg-8 d-flex image-container">
+            <img src="../../assets/spacex.png" alt="spacex" />
+          </div>
+          <div class="d-flex flex-column align-items-center col-md-12 col-lg-4">
+            <a
+              class="mb-4"
+              pButton
+              styleClass="p-button-raised p-button-help p-button-lg"
+              label="Go to project"
+              href="https://github.com/dazaiii/spacex-web"
+              target="_blank"
+            ></a>
+            <div class="d-flex justify-content-center flex-wrap">
+              <p-chip label="Angular"></p-chip>
+              <p-chip label="Angular Material"></p-chip>
+              <p-chip label="TypeScript"></p-chip>
+              <p-chip label="SCSS"></p-chip>
+              <p-chip label="HTML"></p-chip>
+            </div>
+          </div>
+        </div>
+        <p class="project-description">
           Application is connected to Spacex API. It consists of menu, home
           page, lists of spacex rockets and ships and their details. Allows to
           read specific information about ships and rockets. App consists of
           pagination and searchbar functionalities. App is created in
           architecture package by feature.
         </p>
-        <img class="quiz-img" src="../../assets/quizapp.png" alt="quizapp" />
-        <a
-          pButton
-          styleClass="p-button-raised p-button-help p-button-lg"
-          label="Go to project"
-          href="https://github.com/dazaiii/quiz-app"
-          target="_blank"
-        ></a>
-        <p>Tech stack: Angular, Angular Material, TypeScript, SCSS, HTML</p>
-        <p>
+
+        <div class="d-flex project-details align-items-center">
+          <div class="col-md-12 col-lg-8 d-flex image-container">
+            <img
+              class="quiz-img"
+              src="../../assets/quizapp.png"
+              alt="quizapp"
+            />
+          </div>
+          <div class="d-flex flex-column align-items-center col-md-12 col-lg-4">
+            <a
+              pButton
+              styleClass="p-button-raised p-button-help p-button-lg"
+              label="Go to project"
+              href="https://github.com/dazaiii/quiz-app"
+              target="_blank"
+            ></a>
+            <div class="d-flex justify-content-center flex-wrap">
+              <p-chip label="Angular"></p-chip>
+              <p-chip label="Angular Material"></p-chip>
+              <p-chip label="TypeScript"></p-chip>
+              <p-chip label="SCSS"></p-chip>
+              <p-chip label="HTML"></p-chip>
+            </div>
+          </div>
+        </div>
+        <p class="project-description">
           App is using public Quiz API. App allows to take a quiz, compare your
           results with correct answers, mark quiz as favourite and write
           comments to quizes. User can choose quizes from seven categories,

@@ -14,15 +14,11 @@ img {
   }
 }
 
-.skill {
-  padding: 8px 16px;
+p-chip {
   margin-bottom: 16px;
   margin-right: 16px;
   font-size: 20px;
-  background: rgba(153, 153, 153, 0.2);
-  border-radius: 5px;
   font-weight: 600;
-  color: #666;
 }
 
 p {
@@ -37,7 +33,11 @@ p {
 }
 
 .skills-container {
-  padding: 0 10vh;
+  padding: 0 10vw;
+
+  @media only screen and (max-width: 992px) {
+    padding: 0 5vw;
+  }
 }
 
 .about-me {

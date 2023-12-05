@@ -26,6 +26,7 @@ import { InputTextareaModule } from 'primeng/inputtextarea';
 import { EducationComponent } from './education/education.component';
 import { ToastModule } from 'primeng/toast';
 import { MessageService } from 'primeng/api';
+import { ChipModule } from 'primeng/chip';
 
 @NgModule({
   declarations: [
@@ -56,6 +57,7 @@ import { MessageService } from 'primeng/api';
     InputTextModule,
     InputTextareaModule,
     ToastModule,
+    ChipModule,
   ],
   providers: [MessageService],
   bootstrap: [AppComponent],
