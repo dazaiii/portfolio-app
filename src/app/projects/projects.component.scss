@@ -26,22 +26,19 @@ img {
   }
 }
 
-.quiz-img {
-  margin-top: 60px;
-}
-
 p {
   font-size: 20px;
   text-align: center;
-  padding: 0 10vh;
+  padding: 0 10vw;
 
   @media only screen and (min-width: 992px) {
     margin-top: 16px;
+    padding: 0 5vw;
   }
 }
 
 .project-description {
-  margin-bottom: 32px;
+  margin-bottom: 64px;
 }
 
 a {
@@ -56,4 +53,10 @@ p-chip {
   margin-right: 16px;
   font-size: 20px;
   font-weight: 600;
+}
+
+.project-nav {
+  @media only screen and (min-width: 992px) {
+    margin-left: 16px;
+  }
 }
