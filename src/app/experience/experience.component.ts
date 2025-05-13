@@ -48,7 +48,6 @@ export class ExperienceComponent {
           'Developing Angular application in compliance with WCAG 2.1 requirements;',
           'I am lead frontend developer in my team;',
           'My daily acitivities include implementing new features, solving bugs, estimating tasks, performing code reviews, creating tests;',
-          'Implementing new features, solving bugs, performing code review;',
           'I started to support backend team and work as a fullstack developer (tech stack: Java 11 and PostgreSQL);',
         ],
       },
