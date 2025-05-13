@@ -29,7 +29,7 @@ export class ExperienceComponent {
       },
       {
         job: 'Angular Frontend Developer - DahliaMatic',
-        date: '2022.06 - present',
+        date: '2022.06 - 2024.01',
         description: [
           'Developing Angular applications in micro-frontend architecture;',
           'Being responsible for a couple of microfrontends;',
