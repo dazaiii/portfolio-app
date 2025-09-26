@@ -41,14 +41,14 @@ export class ExperienceComponent {
           'Care about software quality, performance and security;',
         ],
       },
-            {
-        job: 'Fullstack Developer - Nekken',
+      {
+        job: 'Frontend Developer - Nekken',
         date: '2024.01 - present',
         description: [
-          'Developing Angular application in compliance with WCAG 2.1 requirements;',
-          'I am lead frontend developer in my team;',
-          'My daily acitivities include implementing new features, solving bugs, estimating tasks, performing code reviews, creating tests;',
-          'I started to support backend team and work as a fullstack developer (tech stack: Java 11 and PostgreSQL);',
+          'Develop and maintain Angular applications with strong focus on WCAG 2.1 accessibility compliance;',
+          'Implement new features, fix bugs, estimate tasks, write tests and perform code reviews to maintain code quality;',
+          'Collaborate closely with cross-functional teams (QA, UX, backend) to deliver scalable solutions;',
+          'Expand responsibilities by contributing to Java / Spring Boot services and PostgreSQL database tasks, strengthening full-stack knowledge;',
         ],
       },
     ];
