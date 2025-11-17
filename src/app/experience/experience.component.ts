@@ -16,29 +16,25 @@ export class ExperienceComponent {
   constructor() {
     this.events = [
       {
-        job: 'Software Engineer Intern - Cytiva',
+        job: 'Junior Software Engineer - Cytiva',
         date: '2021.07 - 2022.06',
         description: [
-          'Creating new features and improvements using Angular (frontend) and Node.js working on AWS lambdas (backend);',
-          'Working on cloud native app based on AWS;',
-          'Performing bug fixes and code reviews;',
-          'Creating unit tests in Jest;',
-          'Preparing knowledge sharing presentations;',
-          'Working in a scrum team and participating in scrum meetings;',
+          'Developed new features and improvements using Angular for frontend.',
+          'Built and maintained backend services with Node.js on AWS Lambda.',
+          'Contributed to a cloud-native architecture leveraging AWS services.',
+          'Performed bug fixes, code reviews, and implemented unit tests with Jest.',
         ],
       },
       {
-        job: 'Angular Frontend Developer - DahliaMatic',
+        job: 'Frontend Developer - DahliaMatic',
         date: '2022.06 - 2024.01',
         description: [
-          'Developing Angular applications in micro-frontend architecture;',
-          'Being responsible for a couple of microfrontends;',
-          'Application development in compliance with WCAG 2.1 requirements;',
-          'Implementing new features, solving bugs, performing code review;',
-          'Cooperation with backend, QA and design teams;',
-          'Creating E2E tests in Cypress;',
-          'Deploying microfrontends using OpenShift;',
-          'Care about software quality, performance and security;',
+          'Designed, implemented, and maintained Angular applications in a micro-frontend architecture.',
+          'Took ownership of several microfrontends and ensured seamless integration.',
+          'Ensured WCAG 2.1 accessibility compliance across applications.',
+          'Implemented new features, fixed bugs, and performed code reviews to maintain code quality.',
+          'Created end-to-end tests in Cypress to ensure stability and reliability.',
+          'Deployed microfrontends using OpenShift, contributing to smooth CI/CD workflows.',
         ],
       },
       {
